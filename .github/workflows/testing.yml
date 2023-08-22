@@ -6,8 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - id: paso1
-      run: pwd
-    - name: Hugo
-      run: ls
+      name: Descarga del repositorio
+    - name: Acciones a realizar dentro del repositorio descargado
+      run: |
+        ls
+        pwd
     
