@@ -1,5 +1,7 @@
 name: Prueba Yo
 on: push
+env:
+  GLOBAL_VARIABLE: ValorGlobal
 jobs:
   testing:
     name: testeo del aplicativo
@@ -14,4 +16,4 @@ jobs:
     - name: Lectura de variables
       run: |
         echo " ${{ secrets.TEST_SECRETO }}  "
-        echo " ${{ env.VARIABLE }}  "
+        echo " ${{ env.GLOBAL_VARIABLE }}  "
