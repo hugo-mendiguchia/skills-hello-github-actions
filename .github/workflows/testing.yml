@@ -1,0 +1,12 @@
+name: Prueba Yo
+on: push
+jobs:
+  testing:
+    name: testeo del aplicativo
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: vamos a ver que tenemos en nuestro repo
+    - run: pwd
+    - run: ls
+    
