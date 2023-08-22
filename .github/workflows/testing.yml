@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: vamos a ver que tenemos en nuestro repo
     - run: pwd
     - run: ls
     
