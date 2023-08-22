@@ -14,4 +14,4 @@ jobs:
     - name: Lectura de variables
       run: |
         echo " ${{ secrets.TEST_SECRETO }}  "
-        echo " ${{ variable.VARIABLE }}  "
+        echo " ${{ env.VARIABLE }}  "
