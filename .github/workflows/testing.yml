@@ -13,4 +13,5 @@ jobs:
         pwd
     - name: Lectura de variables
       run: |
-        echo " ${{ secrets.TEST_SECRETO }}    
+        echo " ${{ secrets.TEST_SECRETO }}  "
+        echo " ${{ secrets.TEST_SECRETO }}  "
