@@ -10,6 +10,7 @@ jobs:
     - uses: actions/checkout@master
       name: Descarga del repositorio
     - name: Acciones a realizar dentro del repositorio descargado
+      id: pepe
       run: |
         ls
         pwd
