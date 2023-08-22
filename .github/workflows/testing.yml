@@ -11,4 +11,6 @@ jobs:
       run: |
         ls
         pwd
-    
+    - name: Lectura de variables
+      run: |
+        echo " ${{ secrets.TEST_SECRETO }}    
